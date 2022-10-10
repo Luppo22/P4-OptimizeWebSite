@@ -31,7 +31,15 @@ body {
 
 .scrolltotop {
     position: relative;
-    left: 90%;
+    left: 80%;
+    display: inline-block;
+    padding: 8px;
+    margin: 0 0 10px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: var(--maincolor);
 }
 
 .contact {
@@ -516,9 +524,10 @@ h3 {
 .footer_links {
     display: block;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 6px;
+    color: #FFFFFF !important;
 }
 
 a:hover {
