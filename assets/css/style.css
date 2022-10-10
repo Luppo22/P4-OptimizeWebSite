@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* Color Charte */
 :root {
-    /*--maincolor: #F3976C;*/
-    --maincolor: #ff9900;
+    /*--maincolor: #F3976C;
+    --maincolor: #ff9900;*/
+    --maincolor: #ff3300;
     --secondcolor: #364577;
 }
 
@@ -34,6 +37,11 @@ body {
 .contact {
     color: #fff;
     font-size: 20px;
+}
+
+.mybtn {
+    font-size: 24px !important;
+    font-weight: 800 !important;
 }
 
 .navbar-nav li{
@@ -78,9 +86,9 @@ p.descr_img {
 .b3-p {
     max-width: 600px;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 700;
     color: #fff;
-
     padding: 0 20px;
 }
 
@@ -259,7 +267,8 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;*/
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -380,8 +389,8 @@ h3,
 p,
 .btn,
 a {
-    font-family: "helvetica";
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 .container {
@@ -403,7 +412,7 @@ a {
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .social {
@@ -418,7 +427,7 @@ h2 {
 h3 {
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 800;
     color: #333333 !important;
 }
 
@@ -433,7 +442,9 @@ h3 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -500,6 +511,16 @@ h3 {
     height: 410px;
     border: 4px var(--maincolor) solid;
     border-radius: 8px;
+}
+
+.footer_links {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, .7);
+}
+
+a:hover {
+    text-decoration: none !important;
 }
 
 /* -- Responsive Large Screen -- */
