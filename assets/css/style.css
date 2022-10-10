@@ -57,7 +57,7 @@ body {
     margin: 16px 0 0 0;
     color: #000;
     font-size: 16px;
-    color: rgba(0, 0, 0, .5);
+    color: #333333;
 }
 
 a,
@@ -516,7 +516,9 @@ h3 {
 .footer_links {
     display: block;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
 }
 
 a:hover {
