@@ -36,8 +36,8 @@ body {
     padding: 8px;
     margin: 0 0 10px 0;
     color: #fff;
-    font-weight: 600;
     font-size: 20px;
+    font-weight: 700;
     border-radius: 6px;
     background-color: var(--maincolor);
 }
@@ -524,8 +524,8 @@ h3 {
 .footer_links {
     display: block;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     margin-top: 6px;
     color: #FFFFFF !important;
 }
